@@ -7,3 +7,28 @@ Paolo G. Dano
 Set 2
 
 
+#1: Implement left bit shift
+Tested:
+5 << 2;
+17 << 2;
+
+#2: Implement String Length Comparison
+"olleh" == 5;
+"neat" >= 4;
+"neat" != 4;
+"neat" <= 3;
+"yes" < 3;
+"yes" > 2;
+
+#3: Plus sign before number
+5 - +4;
+5 + +3;
++3 - 5;
+var x = +234;
+print x;
+var hello = 5 + +5;
+print hello;
+
+#4: String multiplication
+"abc" * 7;
+7 * "not";

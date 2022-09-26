@@ -16,10 +16,6 @@ class Parser {
     this.tokens = tokens;
   }
 
-  boolean isStmt(){
-    return (check(VAR));
-  }
-
   Expr parseExpr() {
     try {
       return expression();

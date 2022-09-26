@@ -52,13 +52,9 @@ public class Lox {
     List<Token> tokens = scanner.scanTokens();
 
     Parser parser = new Parser(tokens);
-    if (parser.isStmt()){
-      List<Stmt> statements = parser.parseStmt();
-      interpreter.interpret(statements);
-    }else{
-      Expr expression = parser.parseExpr();
-      interpreter.interpret(expression);
-    }
+    List<Stmt> statements = parser.parseStmt();
+    interpreter.interpret(statements);
+
     // Stop if there was a syntax error.
     if (hadError) return;
   }
