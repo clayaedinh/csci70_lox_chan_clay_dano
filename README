@@ -1,0 +1,28 @@
+GitHub Link: 
+https://github.com/clayaedinh/csci70_lox_chan_clay_dano
+
+Group Members:
+Sean Owen Y. Chan
+Aedin Hunter A. Clay
+Paolo G. Dano
+
+Set 2
+
+Sample Code:
+
+5 << 2
+1 << 5
+
+“hello” == 5
+“Hello” < 5
+“Nice” >= 4
+5 >= “Nice”
+
+var x = +123;
+print +123;
+var y = 5 + +123;
+var x = ++123;
+
+Hello” * 3 
+3 * “Hello” 
+
